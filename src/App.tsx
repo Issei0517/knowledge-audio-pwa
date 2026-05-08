@@ -138,11 +138,6 @@ function App() {
   return (
     <main className="app-shell">
       <section className="phone-frame" aria-label="知識音声 PWA">
-        <div className="status-bar" aria-hidden="true">
-          <span>9:41</span>
-          <span className="status-icons">▮▮▮ Wi-Fi 100</span>
-        </div>
-
         <header className="top-bar">
           <button className="icon-button" aria-label="戻る" onClick={screen === "detail" ? goHome : undefined}>
             <ArrowLeft size={30} />

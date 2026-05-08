@@ -57,7 +57,7 @@ export const narrations: Narration[] = [
         id: "ch1",
         label: "第1章",
         title: "人間は全部を計算して決めていない",
-        startSec: 133,
+        startSec: 91,
         summary:
           "人は、時間、情報、注意力に限りがある中で判断しています。だから現実では、すべてを比べるより、状況に合った短いルールを使う方がうまくいくことがあります。",
         points: ["限定合理性", "注意力の限界", "判断の工夫"]
@@ -66,7 +66,7 @@ export const narrations: Narration[] = [
         id: "ch2",
         label: "第2章",
         title: "良いシンプルルールは、考える量を減らす",
-        startSec: 302,
+        startSec: 196,
         summary:
           "良いルールは、見る情報、比べる選択肢、覚えておくことを減らします。その分、本当に考えるべきことに力を残せます。ただし、減らしすぎると大事な情報を落とすので注意が必要です。",
         points: ["情報を減らす", "迷いを減らす", "減らしすぎ注意"]
@@ -75,7 +75,7 @@ export const narrations: Narration[] = [
         id: "ch3",
         label: "第3章",
         title: "もし〇〇なら、△△する",
-        startSec: 454,
+        startSec: 327,
         summary:
           "「もしこの状況になったら、この行動をする」と先に決めると、行動に移りやすくなります。気合いに頼るより、条件と行動をセットにする方が続けやすいという内容です。",
         points: ["条件", "行動", "実行意図"]
@@ -84,7 +84,7 @@ export const narrations: Narration[] = [
         id: "ch4",
         label: "第4章",
         title: "チェックリストは、忘れないためのシンプルルール",
-        startSec: 548,
+        startSec: 444,
         summary:
           "専門家でも忘れることがあります。チェックリストは、記憶力に頼らず大事な確認を抜けにくくする仕組みです。仕事や生活にも小さく応用できます。",
         points: ["確認", "忘れ防止", "仕組み化"]
@@ -93,7 +93,7 @@ export const narrations: Narration[] = [
         id: "ch5",
         label: "第5章",
         title: "シンプルルールの落とし穴",
-        startSec: 668,
+        startSec: 556,
         summary:
           "短いルールは便利ですが、どんな場面でも正しいわけではありません。状況に合わないルール、例外が多すぎるルール、見直されないルールは失敗しやすいと説明します。",
         points: ["過信しない", "相性を見る", "例外を決める"]
@@ -102,7 +102,7 @@ export const narrations: Narration[] = [
         id: "ch6",
         label: "第6章",
         title: "自分用のシンプルルールを作る方法",
-        startSec: 780,
+        startSec: 668,
         summary:
           "自分用のルールは、目的、条件、行動、例外、見直し日で作ります。最初から完璧にせず、小さく試して直すことで使えるルールに育てます。",
         points: ["目的", "例外", "小さく試す"]
@@ -111,10 +111,37 @@ export const narrations: Narration[] = [
         id: "summary",
         label: "まとめ",
         title: "少なく、具体的に、見直せる",
-        startSec: 982,
+        startSec: 820,
         summary:
           "シンプルルールは、自分を縛るものではなく、疲れた時の自分を助けるものです。少なく、具体的に、あとから見直せる形にすることが大事です。",
         points: ["少なく", "具体的", "見直せる"]
+      },
+      {
+        id: "work-practice",
+        label: "実践1",
+        title: "仕事で使うシンプルルール",
+        startSec: 926,
+        summary:
+          "仕事で迷いやすい場面に、短い判断基準を置く方法です。メール、優先順位、会議後の行動など、すぐ使える形に落とし込みます。",
+        points: ["仕事", "優先順位", "すぐ動く"]
+      },
+      {
+        id: "life-practice",
+        label: "実践2",
+        title: "生活で使うシンプルルール",
+        startSec: 1047,
+        summary:
+          "生活改善で続けやすいルールを作るパートです。疲れている日でも崩れにくいように、条件と行動を小さく決めます。",
+        points: ["生活改善", "小さく", "続ける"]
+      },
+      {
+        id: "final-repeat",
+        label: "復唱",
+        title: "シンプルルールの作り方",
+        startSec: 1151,
+        summary:
+          "最後に、目的、条件、行動、例外、見直しという作り方を復唱します。聞き終えたあと自分のルールを一つ作れるように整理します。",
+        points: ["作り方", "復唱", "一つ作る"]
       }
     ]
   },
@@ -149,7 +176,7 @@ export const narrations: Narration[] = [
         id: "ch1",
         label: "第1章",
         title: "最優先は思い出す練習",
-        startSec: 130,
+        startSec: 80,
         summary:
           "記憶に残したいなら、答えを見る前に頭から取り出す練習を増やします。白紙再現や小テストは、評価ではなく学習そのものとして役立ちます。",
         points: ["検索練習", "白紙再現", "答え合わせ"]
@@ -158,7 +185,7 @@ export const narrations: Narration[] = [
         id: "ch2",
         label: "第2章",
         title: "復習は間隔を空ける",
-        startSec: 336,
+        startSec: 212,
         summary:
           "一度に詰め込むより、少し忘れたころに思い出す方が長く残りやすくなります。長く覚えたいものほど、復習の間隔を少しずつ空けます。",
         points: ["分散学習", "間隔", "長期記憶"]
@@ -167,7 +194,7 @@ export const narrations: Narration[] = [
         id: "ch3",
         label: "第3章",
         title: "似たものは混ぜて練習する",
-        startSec: 501,
+        startSec: 331,
         summary:
           "同じ種類だけを続けると、使う方法を見分ける力が育ちにくいことがあります。似た問題を混ぜて練習し、違いを言葉にする章です。",
         points: ["交互学習", "見分ける", "問題演習"]
@@ -176,7 +203,7 @@ export const narrations: Narration[] = [
         id: "ch4",
         label: "第4章",
         title: "意味づけと自己説明",
-        startSec: 620,
+        startSec: 443,
         summary:
           "丸暗記だけではなく、なぜそうなるのかを自分の言葉で説明します。すでに少し知っている内容ほど、意味づけで記憶につながりやすくなります。",
         points: ["なぜ", "説明", "理解"]
@@ -185,7 +212,7 @@ export const narrations: Narration[] = [
         id: "ch5",
         label: "第5章",
         title: "画像、場所、例を使う",
-        startSec: 724,
+        startSec: 558,
         summary:
           "図、場所法、具体例は暗記の助けになります。ただし万能ではありません。覚える目的に合う時だけ、補助として使うのが現実的です。",
         points: ["視覚化", "場所法", "補助"]
@@ -194,7 +221,7 @@ export const narrations: Narration[] = [
         id: "ch6",
         label: "第6章",
         title: "睡眠と休憩は暗記の一部",
-        startSec: 808,
+        startSec: 671,
         summary:
           "寝る前の短い復習や、勉強の間の休憩は記憶に関わります。勉強していない時間も、記憶を整える時間として扱います。",
         points: ["睡眠", "休憩", "寝る前復習"]
@@ -203,10 +230,37 @@ export const narrations: Narration[] = [
         id: "summary",
         label: "まとめ",
         title: "1週間の暗記メニューに落とし込む",
-        startSec: 900,
+        startSec: 766,
         summary:
           "覚えるには、読み続けるより思い出す練習へ切り替えます。間隔を空け、混ぜて練習し、自分の言葉で説明する流れにまとめます。",
         points: ["1週間", "習慣化", "実践"]
+      },
+      {
+        id: "today-practice",
+        label: "実践1",
+        title: "今日の30分をどう使うか",
+        startSec: 896,
+        summary:
+          "今日すぐ使える30分の勉強メニューです。読むだけで終わらせず、思い出す練習、答え合わせ、短い復習予定まで入れます。",
+        points: ["30分", "思い出す", "予定化"]
+      },
+      {
+        id: "mistakes",
+        label: "実践2",
+        title: "よくある失敗と直し方",
+        startSec: 1008,
+        summary:
+          "暗記で起きやすい失敗を直すパートです。読み返しだけ、まとめ作りだけ、一夜漬けだけにならないように、実践の形を調整します。",
+        points: ["失敗", "直し方", "一夜漬け注意"]
+      },
+      {
+        id: "final-repeat",
+        label: "復唱",
+        title: "覚えるために、この順番で動く",
+        startSec: 1125,
+        summary:
+          "最後に、取り出す、間隔を空ける、混ぜる、説明する、休むという順番を復唱します。暗記を毎日の行動に変える締めの章です。",
+        points: ["順番", "復唱", "行動化"]
       }
     ]
   }
