@@ -1,0 +1,18 @@
+{
+  "name": "知識音声",
+  "short_name": "知識音声",
+  "description": "自分で作った音声ナレーションを章ごとに聞けるPWAです。",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
